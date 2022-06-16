@@ -18,6 +18,7 @@ class post(models.Model):
     Published_date=models.DateTimeField(auto_now=True)
 
 
-
+def _str_(self):
+    return self.text
 
     
